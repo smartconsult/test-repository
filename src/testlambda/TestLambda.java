@@ -20,6 +20,7 @@ import java.util.Optional;
 public class TestLambda {
 
     public void sss(){
+        //test change
         List<String> places = asList("Buenos Aires", "Córdoba", "La Plata");
         places.sort((String o1, String o2) -> o1.compareToIgnoreCase(o2));
     }
